@@ -1,0 +1,15 @@
+users.get_all:
+  name: Get All Users
+  error_msg: No tienes permiso para ver todos los usuarios.
+  permissions:
+    - global:view_user
+profile.get:
+  name: Get My Profile
+  error_msg: No tienes permiso para ver tu perfil.
+  permissions:
+    - global:view_profile
+profile.update:
+  name: Edit My Profile
+  error_msg: No tienes permiso para editar tu perfil.
+  permissions:
+    - user:edit_profile
