@@ -1,0 +1,6 @@
+{
+  "type": "select_list",
+  "auto_populate": true,
+  "default": "en",
+  "editable": true
+}
