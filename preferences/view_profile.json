@@ -1,5 +1,6 @@
 {
   "type": "select_list",
   "auto_populate": true,
-  "editable": true
+  "editable": true,
+  "options": []
 }
