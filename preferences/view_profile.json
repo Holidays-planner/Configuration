@@ -1,7 +1,23 @@
 {
   "type": "select_list",
+  "options": [
+    {"value": "public", "label": "Public - Visible to everyone"},
+    {"value": "friends", "label": "Friends only - Visible to confirmed friends"},
+    {"value": "private", "label": "Private - Only visible to me"}
+  ],
+  "default": "friends",
   "auto_populate": true,
   "editable": true,
-  "options": [],
-  "default": "friends"
+  "hidden": false,
+  "description": "Control who can see your profile and the personal information it contains",
+  "category": "privacy",
+  "validation": {
+    "required": true
+  },
+  "ui_metadata": {
+    "icon": "eye",
+    "section": "Profile Privacy",
+    "help_text": "This setting affects what personal information is visible to other users",
+    "warning": "Changing to 'Public' will make your profile visible to any user"
+  }
 }

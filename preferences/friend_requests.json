@@ -1,6 +1,23 @@
 {
   "type": "select_list",
-  "auto_populate": true,
+  "options": [
+    {
+      "value": "enabled",
+      "label": "Enabled"
+    },
+    {
+      "value": "disabled",
+      "label": "Disabled"
+    },
+    {
+      "value": "requires_approval",
+      "label": "Requires approval"
+    }
+  ],
   "default": "enabled",
-  "editable": true
+  "auto_populate": true,
+  "editable": true,
+  "hidden": false,
+  "description": "Configure how to handle friend requests",
+  "category": "privacy"
 }

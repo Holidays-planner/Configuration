@@ -1,6 +1,13 @@
 {
   "type": "select_list",
-  "auto_populate": true,
+  "options": [
+    {"value": "en", "label": "English"},
+    {"value": "es", "label": "Español"}
+  ],
   "default": "en",
-  "editable": true
+  "auto_populate": true,
+  "editable": true,
+  "hidden": true,
+  "description": "Select your preferred language for the interface",
+  "category": "general"
 }
