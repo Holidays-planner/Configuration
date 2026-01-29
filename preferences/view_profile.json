@@ -2,5 +2,6 @@
   "type": "select_list",
   "auto_populate": true,
   "editable": true,
-  "options": []
+  "options": [],
+  "default": "friends"
 }
